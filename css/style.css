@@ -1,0 +1,68 @@
+body {
+    font-family: 'Courier New';
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.titulo{
+    font-family: Snell Roundhand, cursive;
+}
+.container {
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #ff6f61;
+}
+
+.photos {
+    margin: 10px 0;
+}
+
+.photo {
+    width: 250px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+}
+
+.text {
+    font-size: 1.2em;
+    margin: 20px 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.counter {
+    font-size: 1.5em;
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+#timer {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('hearts.png') repeat, url('stars.png') repeat;
+    opacity: 0.1;
+    z-index: -1;
+}
